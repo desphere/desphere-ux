@@ -1,0 +1,23 @@
+{
+  "name": "desphere-ux",
+  "version": "0.0.1",
+  "license": "SEE LICENSE IN LICENSE",
+  "scripts": {
+    "dev": "svelte-kit dev",
+    "build": "svelte-kit build",
+    "preview": "svelte-kit preview"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-vercel": "next",
+    "@sveltejs/kit": "^1.0.0-next.189",
+    "svelte": "^3.44.0",
+    "svelte-step-wizard": "0.0.2"
+  },
+  "type": "module",
+  "dependencies": {
+    "axios": "^0.22.0",
+    "noble-base58check": "^0.1.4",
+    "sveltestrap": "^5.6.3",
+    "uuid": "^8.3.2"
+  }
+}
