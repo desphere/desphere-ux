@@ -4,7 +4,6 @@ import axios from "axios";
 export async function get({params}) {
   try {
     let {BASE_API_URL} = process.env;
-
     let tOut = await axios.get(BASE_API_URL + "/nft/minted");
     return {
       status: 200,

@@ -4,14 +4,14 @@ import axios from 'axios';
 export async function post({body}) {
   try {
   // console.log(body);
-  let sendOut = await axios.post(`https://bitclout.com/api/v0/send-deso`,body, {
+  let sendOut = await axios.post(`https://node.deso.org/api/v0/send-deso`,body, {
     headers: {
-      'Referer': 'https://bitclout.com/', 
+      'Referer': 'https://node.deso.org/', 
       'access-control-allow-headers': 'Origin, X-Requested-With, Content-Type, Accept', 
       'Accept': 'application/json, text/plain, */*', 
       'Accept-Encoding': 'gzip, deflate, br', 
       'accept-language': 'en-US,en;q=0.9', 
-      'origin': 'https://bitclout.com', 
+      'origin': 'https://node.deso.org', 
       'sec-fetch-dest': 'empty', 
       'sec-fetch-mode': 'cors', 
       'sec-fetch-site': 'same-site', 

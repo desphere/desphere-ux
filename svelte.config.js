@@ -1,7 +1,4 @@
-// production was hosted on Vercel. one of the easiest ways to host nodejs, svelte, and nextjs apps. 
 import adapter from '@sveltejs/adapter-vercel';
-
-// this just didnt work. do not attempt.
 // import adapter from '@sveltejs/adapter-cloudflare-workers';
 
 /** @type {import('@sveltejs/kit').Config} */

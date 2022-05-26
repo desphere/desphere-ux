@@ -26,7 +26,7 @@ export const toggleMobileMenu = writable(null);
 
 export const toggleInboxMenu = writable(null);
 
-export const toggleTheme = writable('light');
+export const toggleTheme = writable('dark');
 
 export const theUsernameObject = writable(null);
 
